@@ -1,0 +1,59 @@
+
+.mensagemPrincipal {
+    text-align: center;
+}
+.mensagemPrincipal a {
+    color: #000;
+}
+
+.titulo {
+    text-align: center;
+    font-family: Arial;
+}
+
+.tabelaContainer  {
+    display: flex;
+    width: auto;
+    margin-top: 20px;
+}
+
+.tabelaContainer form {
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+ 
+}
+
+input, label, select {
+    text-align: center;
+    margin-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+  
+td, th {
+    border: 0.5px solid #dddddd;
+    
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+@media only screen and (max-width: 1240px) {
+    .containerForm form {
+        flex-wrap: wrap;
+    }
+
+    .botaoAdicionar {
+        margin-top: 1rem;
+    }
+}
